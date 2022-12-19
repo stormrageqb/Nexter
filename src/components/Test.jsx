@@ -1,3 +1,5 @@
+import "./Test.scss";
+
 const Test = () => {
   return (
     <>
