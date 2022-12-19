@@ -31,6 +31,9 @@ html {
   font-size: 62.5%;
 }
 
-// Body element
-.container {
+body {
+  font-family: var(--font-primary);
+  color: var(--color-grey-dark-2);
+  font-weight: 300;
+  line-height: 1.6;
 }
