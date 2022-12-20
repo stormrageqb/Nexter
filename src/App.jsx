@@ -1,8 +1,11 @@
+import Sidebar from "./components/Sidebar/Sidebar";
+import GridContainer from "./layout/GridContainer";
+
 const App = () => {
   return (
-    <div>
-      <p>Nexter</p>
-    </div>
+    <GridContainer>
+      <Sidebar />
+    </GridContainer>
   );
 };
 
