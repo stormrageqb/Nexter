@@ -5,10 +5,20 @@
   }
 
   &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     background-color: var(--color-grey-light-1);
     grid-column: col-start 5 / full-end;
 
-    padding: 6rem 12rem;
+    // Use vw unit so that the padding looks more natural and responsive when shrinking browser
+    padding: 6rem 8vw;
+
+    // Grid alternative:
+    // display: grid;
+    // align-content: center;
+    // justify-items: start;
   }
 
   &__text {
