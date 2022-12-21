@@ -5,6 +5,7 @@
 
   display: grid;
   // grid-template-columns: repeat(3, 1fr);
+  // Auto-responsive grid
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
   align-items: flex-start;
