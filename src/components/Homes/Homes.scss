@@ -29,6 +29,15 @@
     margin: 1rem;
     z-index: 100;
     cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      fill: var(--color-primary-dark);
+    }
+
+    &--active {
+      fill: crimson;
+      z-index: 2222;
+    }
   }
 
   &__name {
