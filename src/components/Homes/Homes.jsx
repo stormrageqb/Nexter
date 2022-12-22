@@ -41,10 +41,9 @@ const Homes = () => {
             </svg>
             <p>{home.price}</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn home__btn">Contact realtor</button>
         </div>
       ))}
-      <div className="home"></div>
     </section>
   );
 };
