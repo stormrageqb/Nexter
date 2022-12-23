@@ -6,7 +6,7 @@ const Gallery = () => {
     <section className="gallery">
       {galleryImgs.map((img) => {
         return (
-          <figure key={crypto.randomUUID()} className={img.figureClassName}>
+          <figure key={img.id} className={img.figureClassName}>
             <img src={img.src} alt={img.alt} className="gallery__img" />
           </figure>
         );

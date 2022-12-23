@@ -1,6 +1,6 @@
 export const homes = [
   {
-    id: 0,
+    id: self.crypto.randomUUID(),
     img: "src/assets/img/house-1.jpeg",
     alt: "House 1",
     heading: "Beautiful Family House",
@@ -10,7 +10,7 @@ export const homes = [
     price: "$1,200,000",
   },
   {
-    id: 1,
+    id: self.crypto.randomUUID(),
     img: "src/assets/img/house-2.jpeg",
     alt: "House 2",
     heading: "Modern Glass Villa",
@@ -20,7 +20,7 @@ export const homes = [
     price: "$2,750,000",
   },
   {
-    id: 2,
+    id: self.crypto.randomUUID(),
     img: "src/assets/img/house-3.jpeg",
     alt: "House 3",
     heading: "Cozy Country House",
@@ -30,7 +30,7 @@ export const homes = [
     price: "$850,000",
   },
   {
-    id: 3,
+    id: self.crypto.randomUUID(),
     img: "src/assets/img/house-4.jpeg",
     alt: "House 4",
     heading: "Large Rustic Villa",
@@ -40,7 +40,7 @@ export const homes = [
     price: "$1,950,000",
   },
   {
-    id: 4,
+    id: self.crypto.randomUUID(),
     img: "src/assets/img/house-5.jpeg",
     alt: "House 5",
     heading: "Majestic Palace House",
@@ -50,7 +50,7 @@ export const homes = [
     price: "$9,500,000",
   },
   {
-    id: 5,
+    id: self.crypto.randomUUID(),
     img: "src/assets/img/house-6.jpeg",
     alt: "House 6",
     heading: "Modern Family Apartment",
