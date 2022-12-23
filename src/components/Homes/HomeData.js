@@ -6,7 +6,7 @@ export const homes = [
     heading: "Beautiful Family House",
     location: "USA",
     rooms: "5 rooms",
-    size: "325 m²",
+    size: "325 m",
     price: "$1,200,000",
   },
   {
@@ -16,7 +16,7 @@ export const homes = [
     heading: "Modern Glass Villa",
     location: "Canada",
     rooms: "6 rooms",
-    size: "450 m²",
+    size: "450 m",
     price: "$2,750,000",
   },
   {
@@ -26,7 +26,7 @@ export const homes = [
     heading: "Cozy Country House",
     location: "UK",
     rooms: "4 rooms",
-    size: "250 m²",
+    size: "250 m",
     price: "$850,000",
   },
   {
@@ -36,7 +36,7 @@ export const homes = [
     heading: "Large Rustic Villa",
     location: "Portugal",
     rooms: "6 rooms",
-    size: "480 m²",
+    size: "480 m",
     price: "$1,950,000",
   },
   {
@@ -46,7 +46,7 @@ export const homes = [
     heading: "Majestic Palace House",
     location: "Germany",
     rooms: "18 rooms",
-    size: "4230 m²",
+    size: "4230 m",
     price: "$9,500,000",
   },
   {
@@ -56,7 +56,7 @@ export const homes = [
     heading: "Modern Family Apartment",
     location: "Italy",
     rooms: "3 rooms",
-    size: "180 m²",
+    size: "180 m",
     price: "$600,000",
   },
 ];
