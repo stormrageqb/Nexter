@@ -1,4 +1,5 @@
 import "./Realtors.scss";
+import React from "react";
 import { realtorsData } from "./RealtorsData";
 
 const Realtors = () => {
@@ -8,7 +9,7 @@ const Realtors = () => {
       <div className="realtors__list">
         {realtorsData.map((realtor) => {
           return (
-            <>
+            <React.Fragment key={realtor.key}>
               <img
                 src={realtor.img}
                 alt={realtor.name}
@@ -20,7 +21,7 @@ const Realtors = () => {
                   {realtor.housesSold} houses sold
                 </p>
               </div>
-            </>
+            </React.Fragment>
           );
         })}
       </div>
