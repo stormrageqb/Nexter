@@ -1,6 +1,7 @@
 import "./Footer.scss";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <ul className="nav">
@@ -35,6 +36,10 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+      <p className="copyright">
+        &copy; Copyright {currentYear} - Jonas Schmedtmann's Advanced CSS and
+        SASS course. Feel free to use this project for your own purposes.
+      </p>
     </footer>
   );
 };
