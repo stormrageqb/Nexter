@@ -12,6 +12,8 @@
     width: 5rem;
     cursor: pointer;
     margin-top: 1rem;
+    z-index: 1000;
+    position: relative;
   }
 
   // &__container {

@@ -12,7 +12,6 @@ import GridContainer from "./layout/GridContainer";
 const App = () => {
   return (
     <GridContainer>
-      <Navigation />
       <Sidebar />
       <Header />
       <Realtors />

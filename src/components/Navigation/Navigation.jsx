@@ -3,7 +3,6 @@ import "./Navigation.scss";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <div className="navigation__background">&nbsp;</div>
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
