@@ -7,8 +7,12 @@ const Sidebar = () => {
   const toggleMenu = () => {
     setShowMenu((prevState) => (prevState = !prevState));
   };
+
+  // Prevent scrolling
   if (showMenu) {
-    document.body.style.overflow = "hidden";
+    setTimeout(() => {
+      document.body.style.overflow = "hidden";
+    }, "500");
   } else {
     document.body.style.overflow = "auto";
   }
@@ -31,7 +35,7 @@ const Sidebar = () => {
           {/* <button className="nav-btn"></button> */}
         </div>
       </div>
-      {showMenu && <Navigation />}
+      <Navigation showMenu={showMenu} />
     </>
   );
 };

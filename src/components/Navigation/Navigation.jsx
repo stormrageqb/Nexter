@@ -1,8 +1,9 @@
 import "./Navigation.scss";
 
-const Navigation = () => {
+const Navigation = ({ showMenu }) => {
   return (
-    <div className="navigation">
+    <div className={showMenu ? "navigation open" : "navigation"}>
+      {/* // <div className={`navigation ${!showMenu ? "open" : null}`}> */}
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
