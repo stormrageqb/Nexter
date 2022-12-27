@@ -18,6 +18,10 @@
   --font-display: "Josefin Sans", sans-serif;
 }
 
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5rem; //1000px
+
 *,
 *::before,
 *::after {
@@ -29,6 +33,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
 }
 
 body {
