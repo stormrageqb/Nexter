@@ -1,3 +1,5 @@
+@use "src/main.scss";
+
 .realtors {
   background-color: var(--color-secondary);
   grid-column: col-start 7 / full-end;
@@ -8,6 +10,10 @@
   row-gap: 2rem;
   justify-items: center;
 
+  @media only screen and (max-width: main.$bp-medium) {
+    grid-column: 1 / -1;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: min-content max-content;
@@ -15,6 +21,11 @@
     // Gap should change depending on the screen size
     row-gap: 5vh;
     align-items: center;
+
+    @media only screen and (max-width: main.$bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+      column-gap: 2.8rem;
+    }
   }
 
   &__img {

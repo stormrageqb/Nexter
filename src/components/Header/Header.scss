@@ -1,3 +1,5 @@
+@use "src/main.scss";
+
 .header {
   background-color: var(--color-grey-dark-1);
   grid-column: full-start / col-end 6;
@@ -13,6 +15,11 @@
   grid-template-columns: minmax(min-content, max-content);
   row-gap: 1.5rem;
   justify-content: center;
+
+  @media only screen and (max-width: main.$bp-medium) {
+    grid-column: 1 / -1;
+  }
+
   &__logo {
     height: 3rem;
     justify-self: center;
