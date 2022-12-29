@@ -127,3 +127,10 @@ body {
 .mb-xl {
   margin-bottom: 8rem;
 }
+
+// Selection
+
+::selection {
+  background-color: var(--color-primary);
+  color: #fff;
+}
