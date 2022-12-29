@@ -32,7 +32,7 @@ const Homes = () => {
               onClick={() => handleToggleLike(i)}
               className="home__like home__like--active"
             >
-              <use href="src/assets/img/sprite.svg#icon-heart-full"></use>
+              <use href="/sprite.svg#icon-heart-full"></use>
             </svg>
           ) : (
             <svg
@@ -40,28 +40,28 @@ const Homes = () => {
               onClick={() => handleToggleDislike(i)}
               className="home__like"
             >
-              <use href="src/assets/img/sprite.svg#icon-heart-full"></use>
+              <use href="/sprite.svg#icon-heart-full"></use>
             </svg>
           )}
 
           <h5 className="home__name">{home.heading}</h5>
           <div className="home__location">
             <svg>
-              <use href="src/assets/img/sprite.svg#icon-map-pin"></use>
+              <use href="/sprite.svg#icon-map-pin"></use>
             </svg>
             <p>{home.location}</p>
           </div>
 
           <div className="home__rooms">
             <svg>
-              <use href="src/assets/img/sprite.svg#icon-profile-male"></use>
+              <use href="/sprite.svg#icon-profile-male"></use>
             </svg>
             <p>{home.rooms}</p>
           </div>
 
           <div className="home__area">
             <svg>
-              <use href="src/assets/img/sprite.svg#icon-expand"></use>
+              <use href="/sprite.svg#icon-expand"></use>
             </svg>
             <p>
               {home.size}
@@ -71,7 +71,7 @@ const Homes = () => {
 
           <div className="home__price">
             <svg>
-              <use href="src/assets/img/sprite.svg#icon-key"></use>
+              <use href="/sprite.svg#icon-key"></use>
             </svg>
             <p>{home.price}</p>
           </div>

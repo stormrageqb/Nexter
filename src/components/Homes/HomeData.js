@@ -1,7 +1,7 @@
 export const homes = [
   {
     id: self.crypto.randomUUID(),
-    img: "src/assets/img/house-1.jpeg",
+    img: "/house-1.jpeg",
     alt: "House 1",
     heading: "Beautiful Family House",
     location: "USA",
@@ -11,7 +11,7 @@ export const homes = [
   },
   {
     id: self.crypto.randomUUID(),
-    img: "src/assets/img/house-2.jpeg",
+    img: "/house-2.jpeg",
     alt: "House 2",
     heading: "Modern Glass Villa",
     location: "Canada",
@@ -21,7 +21,7 @@ export const homes = [
   },
   {
     id: self.crypto.randomUUID(),
-    img: "src/assets/img/house-3.jpeg",
+    img: "/house-3.jpeg",
     alt: "House 3",
     heading: "Cozy Country House",
     location: "UK",
@@ -31,7 +31,7 @@ export const homes = [
   },
   {
     id: self.crypto.randomUUID(),
-    img: "src/assets/img/house-4.jpeg",
+    img: "/house-4.jpeg",
     alt: "House 4",
     heading: "Large Rustic Villa",
     location: "Portugal",
@@ -41,7 +41,7 @@ export const homes = [
   },
   {
     id: self.crypto.randomUUID(),
-    img: "src/assets/img/house-5.jpeg",
+    img: "/house-5.jpeg",
     alt: "House 5",
     heading: "Majestic Palace House",
     location: "Germany",
@@ -51,7 +51,7 @@ export const homes = [
   },
   {
     id: self.crypto.randomUUID(),
-    img: "src/assets/img/house-6.jpeg",
+    img: "/house-6.jpeg",
     alt: "House 6",
     heading: "Modern Family Apartment",
     location: "Italy",

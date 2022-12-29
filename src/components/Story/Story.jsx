@@ -5,15 +5,11 @@ const Story = () => {
     <>
       <div className="story__pictures">
         <img
-          src="src\assets\img\story-1.jpeg"
+          src="/story-1.jpeg"
           alt="Couple with new house"
           className="story__img--1"
         />
-        <img
-          src="src\assets\img\story-2.jpeg"
-          alt="New house"
-          className="story__img--2"
-        />
+        <img src="/story-2.jpeg" alt="New house" className="story__img--2" />
       </div>
       <div className="story__content">
         <h3 className="heading-3 mb-sm">Happy Customers</h3>

@@ -22,13 +22,13 @@ const Sidebar = () => {
         <div className="sidebar__container">
           {!showMenu && (
             <svg onClick={toggleMenu} className="sidebar__icon">
-              <use href="src/assets/img/sprite.svg#icon-menu"></use>
+              <use href="/sprite.svg#icon-menu"></use>
             </svg>
           )}
 
           {showMenu && (
             <svg onClick={toggleMenu} className="sidebar__icon">
-              <use href="src/assets/img/sprite.svg#icon-x"></use>
+              <use href="/sprite.svg#icon-x"></use>
             </svg>
           )}
 
